@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg  navstyle  "><!---NavBar Start--->
+   <?php
+    getlogo();
+
+   ?>
+  <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto webtech">
+      <li class="nav-item infotech">
+        <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item infotech">
+        <a target="_blank" class="nav-link" href="gallery">Gallery</a>
+      </li>
+   <li class="nav-item infotech">
+        <a target="_blank" class="nav-link" href="about">About</a>
+      </li>
+    </ul>
+     <button class="btn" type="submit" data-toggle="modal" data-target="#signupModal">Contact Us</button>
+  </div>
+</nav><!---Navbar End--->
